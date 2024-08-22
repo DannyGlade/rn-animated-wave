@@ -46,8 +46,23 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "typescript",
+    "animation",
+    "waves",
+    "rings",
+    "react-native-reanimated",
+    "react-native-animated-waves",
+    "react-native-animated-rings",
+    "react-native-animated-wave",
+    "react-native-animated-ring",
+    "react-native-animated-circle",
+    "react-native-animated-circles",
+    "rn-animated-waves",
+    "rn-animated-rings",
+    "rn-animated-wave",
+    "rn-animated-ring",
+    "rn-animated-circle",
+    "rn-animated-circles"
   ],
   "repository": {
     "type": "git",
