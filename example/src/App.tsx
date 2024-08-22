@@ -1,17 +1,19 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'rn-animated-wave';
+import { StyleSheet, Text, View } from 'react-native';
+import WavyRings from 'rn-animated-wave';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <WavyRings
+        rings={3}
+        width={200}
+        height={200}
+        delay={500}
+        isRunning={true}
+      >
+        <Text style={styles.header}>Wavy Rings</Text>
+        <Text style={styles.footer}>By DannyGlade</Text>
+      </WavyRings>
     </View>
   );
 }
@@ -26,5 +28,13 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     marginVertical: 20,
+  },
+  header: {
+    fontSize: 24,
+    color: 'rgba(0, 0, 0, 0.8)',
+  },
+  footer: {
+    fontSize: 12,
+    color: 'rgba(0, 0, 0, 0.5)',
   },
 });
