@@ -69,6 +69,7 @@
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
+    "@types/react-native": "^0.73.0",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "latest",
@@ -183,6 +184,6 @@
     "version": "0.41.0"
   },
   "dependencies": {
-    "react-native-reanimated": "^3.15.0"
+    "react-native-reanimated": "3.10.0"
   }
 }
