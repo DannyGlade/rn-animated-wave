@@ -91,14 +91,14 @@ __metadata:
   linkType: hard
 
 "@babel/generator@npm:^7.20.0, @babel/generator@npm:^7.20.5, @babel/generator@npm:^7.25.0, @babel/generator@npm:^7.25.4, @babel/generator@npm:^7.7.2":
-  version: 7.25.4
-  resolution: "@babel/generator@npm:7.25.4"
+  version: 7.25.5
+  resolution: "@babel/generator@npm:7.25.5"
   dependencies:
     "@babel/types": ^7.25.4
     "@jridgewell/gen-mapping": ^0.3.5
     "@jridgewell/trace-mapping": ^0.3.25
     jsesc: ^2.5.1
-  checksum: 0096986585ccb2dbb8feb78aeaddb1b089ed7f6aafb16ec0f7bd931f04e1fc7d3d12e96999b6746f72d851b09453141522ddcf924bcac8cfe07c5d631bb09c8d
+  checksum: d7713f02536a8144eca810e9b13ae854b05fec462348eaf52e7b50df2c0a312bc43bfff0e8e10d6dd982e8986d61175ac8e67d7358a8b4dad9db4d6733bf0c9c
   languageName: node
   linkType: hard
 
@@ -869,7 +869,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-class-properties@npm:^7.24.1, @babel/plugin-transform-class-properties@npm:^7.25.4":
+"@babel/plugin-transform-class-properties@npm:^7.0.0-0, @babel/plugin-transform-class-properties@npm:^7.24.1, @babel/plugin-transform-class-properties@npm:^7.25.4":
   version: 7.25.4
   resolution: "@babel/plugin-transform-class-properties@npm:7.25.4"
   dependencies:
@@ -894,7 +894,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-classes@npm:^7.0.0, @babel/plugin-transform-classes@npm:^7.25.4":
+"@babel/plugin-transform-classes@npm:^7.0.0, @babel/plugin-transform-classes@npm:^7.0.0-0, @babel/plugin-transform-classes@npm:^7.25.4":
   version: 7.25.4
   resolution: "@babel/plugin-transform-classes@npm:7.25.4"
   dependencies:
@@ -1499,7 +1499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-unicode-regex@npm:^7.0.0, @babel/plugin-transform-unicode-regex@npm:^7.24.7":
+"@babel/plugin-transform-unicode-regex@npm:^7.0.0, @babel/plugin-transform-unicode-regex@npm:^7.0.0-0, @babel/plugin-transform-unicode-regex@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/plugin-transform-unicode-regex@npm:7.24.7"
   dependencies:
@@ -7587,12 +7587,12 @@ eslint@latest:
   languageName: node
   linkType: hard
 
-"expo-modules-core@npm:1.12.22":
-  version: 1.12.22
-  resolution: "expo-modules-core@npm:1.12.22"
+"expo-modules-core@npm:1.12.23":
+  version: 1.12.23
+  resolution: "expo-modules-core@npm:1.12.23"
   dependencies:
     invariant: ^2.2.4
-  checksum: 3b5345eb5b11325058541b22a17a18ea8610a7d605e2f791144cef7f69e9e81b77f22baabbade081d01a06d93df4234a5294eaa2517aa99c926a1b0869f6c0cc
+  checksum: 80fb59db4505d381be41c67da0fae4e2b6e3baf143fc613cbfe97bc31de9def668c5d7fee648b17f453e8f65dddf4c2fbfd115a696cb9b6611225feb9047576a
   languageName: node
   linkType: hard
 
@@ -7604,8 +7604,8 @@ eslint@latest:
   linkType: hard
 
 "expo@npm:~51.0.28":
-  version: 51.0.30
-  resolution: "expo@npm:51.0.30"
+  version: 51.0.31
+  resolution: "expo@npm:51.0.31"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/cli": 0.18.29
@@ -7619,12 +7619,12 @@ eslint@latest:
     expo-font: ~12.0.9
     expo-keep-awake: ~13.0.2
     expo-modules-autolinking: 1.11.2
-    expo-modules-core: 1.12.22
+    expo-modules-core: 1.12.23
     fbemitter: ^3.0.0
     whatwg-url-without-unicode: 8.0.0-3
   bin:
     expo: bin/cli
-  checksum: d4ddae7fea6d791194dc3d9c0f437a041c723d5b3cd2a4883547c5d5fa5dc2d4ddc2da5dc32fb1f57174ff87e160cec4206ae509fbba8644cabfd65978f62d78
+  checksum: 5fbdeca01309bbb56e030ddf3b2fdef7052e44be3dff68b2e286b7f4004420705c73e573bd1581e4e68c6fdb3d46b4792d7f4cc3e59bb51341e28a89f153bccd
   languageName: node
   linkType: hard
 
@@ -11321,12 +11321,12 @@ eslint@latest:
   linkType: hard
 
 "micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
     braces: ^3.0.3
     picomatch: ^2.3.1
-  checksum: 3cde047d70ad80cf60c787b77198d680db3b8c25b23feb01de5e2652205d9c19f43bd81882f69a0fd1f0cde6a7a122d774998aad3271ddb1b8accf8a0f480cf7
+  checksum: 79920eb634e6f400b464a954fcfa589c4e7c7143209488e44baf627f9affc8b1e306f41f4f0deedde97e69cb725920879462d3e750ab3bd3c1aed675bb3a8966
   languageName: node
   linkType: hard
 
@@ -12986,6 +12986,29 @@ eslint@latest:
   languageName: node
   linkType: hard
 
+"react-native-reanimated@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "react-native-reanimated@npm:3.15.0"
+  dependencies:
+    "@babel/plugin-transform-arrow-functions": ^7.0.0-0
+    "@babel/plugin-transform-class-properties": ^7.0.0-0
+    "@babel/plugin-transform-classes": ^7.0.0-0
+    "@babel/plugin-transform-nullish-coalescing-operator": ^7.0.0-0
+    "@babel/plugin-transform-optional-chaining": ^7.0.0-0
+    "@babel/plugin-transform-shorthand-properties": ^7.0.0-0
+    "@babel/plugin-transform-template-literals": ^7.0.0-0
+    "@babel/plugin-transform-unicode-regex": ^7.0.0-0
+    "@babel/preset-typescript": ^7.16.7
+    convert-source-map: ^2.0.0
+    invariant: ^2.2.4
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: fad4f54d7f005f4fb3d90d983bedcf1ec7de936259b8e286feb35edaa9d1ac16d8b927fcd59eeea7f91446310432b342fd9785301a304955844785fef52a3e31
+  languageName: node
+  linkType: hard
+
 "react-native-web@npm:~0.19.10":
   version: 0.19.12
   resolution: "react-native-web@npm:0.19.12"
@@ -13716,7 +13739,7 @@ eslint@latest:
     react: 18.2.0
     react-native: 0.74.5
     react-native-builder-bob: ^0.30.0
-    react-native-reanimated: 3.10.0
+    react-native-reanimated: ^3.15.0
     release-it: ^15.0.0
     typescript: ^5.5.4
   peerDependencies:

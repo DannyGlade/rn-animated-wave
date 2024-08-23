@@ -5,6 +5,11 @@ Animated rings component for React Native
 ## Installation
 
 ```sh
+npm install react-native-reanimated
+```
+> please install `react-native-reanimated` to use this package.
+
+```sh
 npm install rn-animated-wave
 ```
 
