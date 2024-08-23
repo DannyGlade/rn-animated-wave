@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { StyleSheet, View, type ViewStyle } from 'react-native';
+import { StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import Animated, {
   interpolate,
   useAnimatedStyle,
@@ -14,11 +14,19 @@ export type RingProps = {
   width: number;
   height?: number;
   isRunning: boolean;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
 };
 
 const AnimatedView = Animated.createAnimatedComponent(View);
 
+/**
+ * Ring component - default ring
+ * @param {Number} delay - Delay between each ring
+ * @param {Number} width - Width of the Ring
+ * @param {Number} height - `Optional` Height of the Ring
+ * @param {Boolean} isRunning - Animation state
+ * @param {Object} style - `Optional` Custom styles for the Ring
+ */
 export default function Ring({
   delay,
   width,
