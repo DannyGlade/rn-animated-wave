@@ -1,20 +1,25 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text } from 'react-native';
 import WavyRings from 'rn-animated-wave';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <WavyRings
-        rings={3}
+        rings={7}
         width={200}
         height={200}
         delay={500}
         isRunning={true}
+        containerStyle={{
+          flex: 1,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
       >
         <Text style={styles.header}>Wavy Rings</Text>
         <Text style={styles.footer}>By DannyGlade</Text>
       </WavyRings>
-    </View>
+    </ScrollView>
   );
 }
 
