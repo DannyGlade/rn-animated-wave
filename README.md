@@ -9,10 +9,17 @@ https://github.com/user-attachments/assets/642adbb9-2c81-4434-ad70-c7e26dccb043
 
 ## Installation
 
+> please install `react-native-reanimated` to use this package.
 ```sh
 npm install react-native-reanimated
 ```
-> please install `react-native-reanimated` to use this package.
+OR
+> if using expo
+```sh
+npx expo install react-native-reanimated
+```
+
+---
 
 ```sh
 npm install rn-animated-wave
