@@ -1,6 +1,6 @@
 {
   "name": "rn-animated-wave",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Animated rings component for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
