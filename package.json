@@ -1,6 +1,6 @@
 {
   "name": "rn-animated-wave",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Animated rings component for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -96,7 +96,7 @@
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-builder-bob": "^0.30.0",
-    "react-native-reanimated": "^3.15.0",
+    "react-native-reanimated": "^3.10.0",
     "release-it": "^15.0.0",
     "typescript": "^5.5.4"
   },
@@ -106,7 +106,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-reanimated": "*"
+    "react-native-reanimated": "^3.10.0"
   },
   "workspaces": [
     "example"
