@@ -10,11 +10,6 @@ export default function App() {
         height={200}
         delay={500}
         isRunning={true}
-        containerStyle={{
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
       >
         <Text style={styles.header}>Wavy Rings</Text>
         <Text style={styles.footer}>By DannyGlade</Text>
