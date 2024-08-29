@@ -5,8 +5,6 @@ import RingsContainer, { type RingsContainerProps } from './RingsContainer';
 
 export type WavyRingsProps = PropsWithChildren<{
   rings: number;
-  width: number;
-  height?: number;
   delay: number;
   isRunning: boolean;
   ringsStyle?: StyleProp<ViewStyle>;
